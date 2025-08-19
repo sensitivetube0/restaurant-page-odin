@@ -12,11 +12,11 @@ let generateContent = function () {
   });
   let menuButton = document.querySelector(".menu");
   menuButton.addEventListener("click", () =>
-    generateMenuPage.addDOMElementsToDOMMenu()
+    generateMenuPage.addDOMElementsToDOMMenu(),
   );
   let aboutButton = document.querySelector(".about");
   aboutButton.addEventListener("click", () =>
-    generateAboutPage.addDOMElementsToDOMAbout()
+    generateAboutPage.addDOMElementsToDOMAbout(),
   );
 };
 document.addEventListener("DOMContentLoaded", generateContent);
